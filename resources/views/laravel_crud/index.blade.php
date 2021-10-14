@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('content')
+@section('content')+
     <div class="main">
       <div class="main-content">
         <di class="conteiner-fluid">
@@ -10,9 +10,7 @@
 								<div class="panel-heading">
 									<h3 class="panel-title">Data Buku Tamu</h3>
                   <div class="right">
-                  <button type="button" class="btn btn-primary btn-sm float-right" 
-                    data-toggle="modal" data-target="#exampleModal">Tambah Data Tamu
-                  </button>
+                  <button type="button" class="btn"  data-toggle="modal" data-target="#exampleModal"><i class="lnr lnr-plus-circle"></i></button>
                   </div>
 								</div>
 								<div class="panel-body">
